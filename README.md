@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head><script type="module">
   // Import the functions you need from the SDKs you need
