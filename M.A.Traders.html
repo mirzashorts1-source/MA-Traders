@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBN7JWmQjaSwn4f6_DB4Ecejl271iPfYo8",
+    authDomain: "matraders3.firebaseapp.com",
+    projectId: "matraders3",
+    storageBucket: "matraders3.firebasestorage.app",
+    messagingSenderId: "441825754184",
+    appId: "1:441825754184:web:f31a8b6141bee79effec7d",
+    measurementId: "G-MVS8EYVVGS"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M.A Traders - Sahiwal | v18.8</title>
